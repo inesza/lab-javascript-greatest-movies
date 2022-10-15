@@ -2001,3 +2001,5 @@ const movies = [
     score: 8
   }
 ];
+
+module.exports = movies
