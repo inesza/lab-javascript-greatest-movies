@@ -109,7 +109,6 @@ function bestYearAvg(moviesArray) {
   const listOfYears = uniqueYears.reduce((acc, val) => {
     return { ...acc, [val]: [] };
   }, {});
-  console.log(listOfYears);
 
   //   Assign score to their year
   uniqueYears.map((year) => {
@@ -135,4 +134,4 @@ function bestYearAvg(moviesArray) {
 
   return `The best year was ${bestYear} with an average score of ${bestAverage}`;
 }
-console.log(bestYearAvg(movies));
+
